@@ -1,0 +1,204 @@
+@font-face {
+    font-family: "Consolas";
+    src: url("./fonts/CONSOLA.TTF");
+}
+
+* {
+    box-sizing: border-box;
+    font-family: "Consolas", Helvetica, sans-serif;
+    color: #515151;
+}
+
+.app {
+    margin-top: 80px;
+}
+
+.navbar-background-01 {
+    display: inline-block;
+    height: 100%;
+    width: 220px;
+
+    background-color: orange;
+
+    z-index: 4;
+}
+
+.logo-frame {
+    display: inline-block;
+
+    width: 42px;
+    height: 42px;
+
+    background: #ffffff;
+
+    border-radius: 25px;
+    margin: 9px 0px 0px 9px;
+}
+
+.logo {
+    padding: 2px 0px 0px 0px;
+}
+
+.page-title {
+    display: inline-block;
+    vertical-align: top;
+
+    color: #ffffff;
+    font-size: 2em;
+
+    margin: 10px 0px 0px 14px;
+}
+
+.navbar-background-02 {
+    position: absolute;
+    left: 190px;
+    top: -20px;
+
+    height: 100px;
+    width: 40px;
+
+    background-color: orange;
+
+    z-index: -1;
+
+    transform: rotate(22.5deg);
+}
+
+.navbar-background-03 {
+    position: absolute;
+    left: 240px;
+    top: -20px;
+
+    height: 100px;
+    width: 20px;
+
+    background-color: orange;
+    
+    z-index: -1;
+    
+    transform: rotate(22.5deg);
+}
+
+.navbar-background-04 {
+    position: absolute;
+    left: 269px;
+    top: -20px;
+    
+    height: 100px;
+    width: 20px;
+    
+    background-color: orange;
+
+    z-index: -1;
+
+    transform: rotate(22.5deg);
+}
+
+.button-container {
+    position: absolute;
+    top: 0px;
+    left: 230px;
+    margin: 16px 0px 0px 100px;
+
+}
+
+.navbar-button {
+    display: inline-block;
+
+    background-color: #001a4e;
+
+    color: #ffffff;
+    border-radius: 4px;
+
+    padding: 5px 11px 5px 11px;
+    margin: 0px 10px 0px 0px;
+
+    cursor: pointer;
+}
+
+.navbar {
+    display: inline-block;
+
+    overflow: hidden;
+    width: 100vw;
+    height: 60px;
+
+    position: fixed;
+    top: 0px;
+
+    background-color: #ffffff;
+    box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.1);
+}
+
+.generic {
+    border: 1px solid #001a4e;
+    border: 1px solid #b1b1b1;
+    border-radius: 4px;
+    margin: 20px 15% 20px 15%;
+}
+
+.card {
+    padding: 0px 20px 20px 20px;
+}
+
+.card * {
+    margin-top: 20px;
+}
+
+.toolbar {
+    display: flex;
+
+    justify-content: space-between;
+    padding: 5px 0px 5px 0px;
+}
+
+.date-picker {
+    border: 1px solid #b1b1b1;
+    border-radius: 4px;
+    margin: 0px;
+    padding: 5px;
+}
+
+.submit-button {
+    display: inline-block;
+    vertical-align: top;
+    background-color: #e7e7e7;
+    border: 1px solid #b1b1b1;
+    border-radius: 4px;
+    padding: 5px 6px 4px 6px;
+    margin-left: 6px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.chevron {
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+
+    background-color: #e7e7e7;
+    border: 1px solid #b1b1b1;
+    border-radius: 4px;
+    cursor: pointer;
+    padding: 5px 0px 0px 7px;
+    margin: 0px 5px 0px 5px;
+}
+
+.img {
+    border-radius: 6px;
+}
+
+.title {
+    display: inline-block;
+    font-weight: bold;
+}
+
+.explanation {
+    line-height: 1.75em;
+}
+
+@media (max-width: 900px) {
+    .generic {
+        margin: 20px;
+    }
+}
